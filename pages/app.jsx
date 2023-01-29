@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import comingSoonBG from '../public/coming_soon_bg.png'
 import rituLogo from '../public/logo_white_sym.png';
 import '../styles/coming-soon.css'
-import '../styles/globals.css'
-import SvgHamburger from '../components/Home/Modules/SvgHamburger.jsx'
+import '../components/Utils/SvgHamburger.css'
+import SvgHamburger from '../components/Utils/SvgHamburger.jsx'
 
 
 function Background() {
