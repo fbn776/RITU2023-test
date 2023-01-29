@@ -71,6 +71,7 @@ body {
 }
 
 .header .nav .nav-items label {
+	position: relative;
 	font-family: 'Open Sans';
 	font-weight: 600;
 	font-style: normal;
@@ -82,35 +83,13 @@ body {
 	margin-right: 0px;
 }
 
-.header .svg-burger-bar {
+.header .svg-hamburger {
 	display: none;
 }
 
 .header svg {
 	position: relative;
 	z-index: 99999;
-}
-
-.body {
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.body>div {
-	position: absolute;
-	font-family: 'Poppins';
-	font-style: normal;
-	font-size: 48px;
-	font-weight: 800;
-	line-height: 141px;
-	letter-spacing: 1em;
-	color: white;
-	padding-left: 1em;
 }
 
 .side-nav {
@@ -147,7 +126,7 @@ body {
 	opacity: 1;
 }
 
-.side-nav label:after {
+.header label:after {
 	content: '';
 	position: absolute;
 	width: calc(100% + 6px);
@@ -161,8 +140,30 @@ body {
 	transition: max-width 0.2s;
 }
 
-.side-nav label:hover:after {
+.header label:hover:after {
 	max-width: calc(100% + 6px);
+}
+
+.body {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.body>div {
+	position: absolute;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 141px;
+	letter-spacing: 1em;
+	color: white;
+	padding-left: 1em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -176,7 +177,7 @@ body {
 		font-size: 24px;
 	}
 
-	.header .svg-burger-bar {
+	.header .svg-hamburger {
 		display: inline-block;
 	}
 
