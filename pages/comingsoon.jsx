@@ -2,7 +2,6 @@ import React from 'react';
 import comingSoonBG from '../public/coming_soon_bg.png'
 import rituLogo from '../public/logo_white_sym.png';
 import '../styles/coming-soon.css'
-import '../components/Utils/SvgHamburger.css'
 import SvgHamburger from '../components/Utils/SvgHamburger.jsx'
 
 

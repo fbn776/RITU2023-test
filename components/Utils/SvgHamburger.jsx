@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './SvgHamburger.css'
 /***
  * A hamburger class following the figma design
  * The component has an action attribute that takes in a function and

@@ -36,5 +36,7 @@ SystemJS.config({
 	transpiler: 'plugin-babel'
 });
 
+/*
 SystemJS.import('./pages/app.jsx')
 	.catch(console.error.bind(console));
+*/
