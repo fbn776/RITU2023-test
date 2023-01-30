@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import bg from '../components/Home/Modules/Background.jsx'
-import '../styles/globals.css'
+import Bg from './bg.jsx';
 
 ReactDOM.render(
-	bg(),
+	<Bg/>,
 	document.getElementById('react-app')
 );

@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins';
+	user-select: none;
+}
+
+body {
+	margin: 0px;
+	height: 100vh;
+}
+
+.bg {
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 5287px;
+	top:0px;
+	left:0px;
+	background: black
+}
+
+.bg-item {
+	position: absolute;
+	border-radius: 100%;
+	
+}
+
+.bg-item-1 {
+	width: 23%;
+	aspect-ratio: 0.83;
+	background: #D225E1;
+	border-radius: 100%;
+	top: -10px;
+	left: -43px;
+	filter: blur(55px);
+}
+
+.bg-item-2 {
+	width: 13.6%;
+	aspect-ratio: 0.48;
+	background: white;
+	border-radius: 100%;
+	top: -30px;
+	left: 40px;
+	filter: blur(20px);
+}
